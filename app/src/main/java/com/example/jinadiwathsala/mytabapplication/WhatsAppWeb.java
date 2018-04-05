@@ -1,0 +1,21 @@
+package com.example.jinadiwathsala.mytabapplication;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class WhatsAppWeb extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_whats_app_web);
+
+        getSupportActionBar().setTitle("WhatsApp Web");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+    @Override
+    public boolean onSupportNavigateUp(){
+        finish();
+        return true;
+    }
+}

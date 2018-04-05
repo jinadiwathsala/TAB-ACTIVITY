@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Tab Application</string>
+    <string name="tab_text_1">CHATS</string>
+    <string name="tab_text_2">STATUS</string>
+    <string name="tab_text_3">CALLS</string>
+    <string name="action_new_Group">New group</string>
+    <string name="action_New_broadcast">New broadcast</string>
+    <string name="action_WhatsApp_Web">WhatsApp Web</string>
+    <string name="action_Starred_messages">Starred messages</string>
+    <string name="action_New_Settings">Settings</string>
+    <string name="search_hint">Search</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>
